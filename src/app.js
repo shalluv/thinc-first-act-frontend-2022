@@ -29,6 +29,5 @@ const init = () => __awaiter(void 0, void 0, void 0, function* () {
         const container = document.getElementById('courses-container');
         container === null || container === void 0 ? void 0 : container.appendChild(div);
     }
-    console.log('done');
 });
 init();

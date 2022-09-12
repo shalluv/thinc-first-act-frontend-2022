@@ -36,7 +36,6 @@ const init = async () => {
 		const container = document.getElementById('courses-container');
 		container?.appendChild(div);
 	}
-	console.log('done');
 };
 
 init();
