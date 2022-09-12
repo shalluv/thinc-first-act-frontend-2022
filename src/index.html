@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello, World!</title>
-  </head>
-  <body>
-    <h1>First Act!</h1>
+	<head>
+		<title>Mini Reg</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="app.js"></script>
-  </body>
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav class="navbar">
+			<h1 class="nav-title">Mini Reg</h1>
+			<ul class="nav-list">
+				<li class="nav-item"><a href="#">Course List</a></li>
+				<li class="nav-item"><a href="#">About Us</a></li>
+				<li class="nav-item"><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<div class="container" id="courses-container">
+			<p class="announcement">Mini Reg is a demo website.</p>
+			<h2 class="subheading">Courses</h2>
+			<div class="course">
+				<h3 class="course-title">2110101 COMP PROG</h3>
+				<h4 class="course-subheading">จำนวนหน่วยกิต</h4>
+				<p class="course-text">3 หน่วยกิต</p>
+				<h4 class="course-subheading">วันที่เรียน</h4>
+				<ul class="course-list">
+					<li class="course-list-item">วันพุธ</li>
+					<li class="course-list-item">วันพฤหัสบดี</li>
+				</ul>
+				<h4 class="course-subheading">จำนวนที่นั่ง</h4>
+				<p class="course-text">284/300</p>
+			</div>
+			<div class="course">
+				<h3 class="course-title">2301107 CALCULUS I</h3>
+				<h4 class="course-subheading">จำนวนหน่วยกิต</h4>
+				<p class="course-text">3 หน่วยกิต</p>
+				<h4 class="course-subheading">วันที่เรียน</h4>
+				<ul class="course-list">
+					<li class="course-list-item">วันจันทร์</li>
+					<li class="course-list-item">วันอังคาร</li>
+					<li class="course-list-item">วันพุธ</li>
+					<li class="course-list-item">วันพฤหัสบดี</li>
+					<li class="course-list-item">วันศุกร์</li>
+				</ul>
+				<h4 class="course-subheading">จำนวนที่นั่ง</h4>
+				<p class="course-text">300/300</p>
+			</div>
+			<div class="course">
+				<h3 class="course-title">2304183 GEN PHYS LAB I</h3>
+				<h4 class="course-subheading">จำนวนหน่วยกิต</h4>
+				<p class="course-text">1 หน่วยกิต</p>
+				<h4 class="course-subheading">วันที่เรียน</h4>
+				<ul class="course-list">
+					<li class="course-list-item">วันจันทร์</li>
+					<li class="course-list-item">วันอังคาร</li>
+					<li class="course-list-item">วันพุธ</li>
+					<li class="course-list-item">วันพฤหัสบดี</li>
+					<li class="course-list-item">วันศุกร์</li>
+				</ul>
+				<h4 class="course-subheading">จำนวนที่ว่างรวม</h4>
+				<p class="course-text">224/300</p>
+			</div>
+		</div>
+		<footer class="footer">Copyright 2022, Mini Reg.</footer>
+
+		<script src="app.js"></script>
+	</body>
 </html>

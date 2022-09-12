@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font: 16px/1.5 'Poppins', sans-serif;
+	color: #2a2d48;
+}
+
+a {
+	color: #2a2d48;
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	padding: 16px;
+	align-items: center;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	background: white;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+}
+
+.nav-title {
+	display: flex;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 0 20px 0 20px;
+}
+
+.nav-item {
+	display: flex;
+	align-items: center;
+	margin: 12px 20px 0;
+	font-size: 0.9em;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+}
+
+.announcement {
+	background-color: #6d6d7a;
+	color: white;
+	padding: 12px;
+	border-radius: 6px;
+	margin: 24px 0;
+	font-size: 0.9em;
+}
+
+.subheading {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.course {
+	margin: 12px 0;
+	padding: 16px;
+	background-color: #fbfbfb;
+	border: 1px solid #e5e5e5;
+	line-height: 1.6em;
+}
+
+.course-title {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.course-subheading {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.course-text {
+	font-size: 0.9em;
+}
+
+.course-list {
+	margin-left: 18px;
+}
+
+.course-list-item {
+	font-size: 0.9em;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 16px;
+	background: #2c2b47;
+	color: #fff;
+	font-size: 0.9em;
+}
